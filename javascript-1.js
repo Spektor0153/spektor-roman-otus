@@ -1,6 +1,6 @@
 
 var sum = (number, iter = 0) => {
-    if (!number) return iter;
+    if (number === undefined) return iter;
     return x => sum(x, iter + number);
 }
 
