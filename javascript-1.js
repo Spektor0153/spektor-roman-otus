@@ -1,7 +1,7 @@
 
-var sum = (number, iter = 0) => {
-    if (number === undefined) return iter;
-    return x => sum(x, iter + number);
+var sum = (number, a = 0) => {
+    if (number === undefined) return a;
+    return x => sum(x, a + number);
 }
 
 sum(5)(10)(15)(); 
