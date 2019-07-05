@@ -7,5 +7,5 @@ var sum = (number, a = 0) => {
 sum(5)(10)(15)(); 
 
 /* 2 вариант */
-var sum = a => num => num? sum(a + num) : a;
+var sum = a => num => num!=undefined? sum(a + num) : a;
 sum(5)(10)(15)();
