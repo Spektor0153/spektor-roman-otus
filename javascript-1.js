@@ -3,4 +3,4 @@ var sum = (number, iter = 0) => {
     return x => sum(x, iter + number);
 }
 
-sum(5)(10)(15)();
+sum(5)(10)(15)(); 
