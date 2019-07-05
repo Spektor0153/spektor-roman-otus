@@ -7,5 +7,5 @@ var sum = (number, iter = 0) => {
 sum(5)(10)(15)(); 
 
 /* 2 вариант */
-var sum = iter => number => number? sum(iter + number) : iter;
+var sum = a => num => num? sum(a + num) : a;
 sum(5)(10)(15)();
