@@ -17,7 +17,7 @@ var fn3 = () => {
 		console.log('fn3')
 		setTimeout(() => resolve(3), 2000)
 	});
-}
+} 
 
 
 
